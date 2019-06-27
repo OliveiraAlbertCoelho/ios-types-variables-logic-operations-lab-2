@@ -8,7 +8,7 @@ You are given three grades obtained by 3 students, which are stored in variables
 Create a variable called `yourGrade` of type `Double` and give it a value.
 Print `"above average"` if your grade is greater than the class average or `"below average"` otherwise.
 
-```
+```swift
 
 var grade1 = 7.0
 var grade2 = 9.0
@@ -23,7 +23,7 @@ print("Above average")
 
 ***
 ## Question 2
-
+```swift
 You are given a number. Print even if the number is even or odd otherwise.
 
 ```'
@@ -42,7 +42,7 @@ print("This number is odd")
 
 You are given two numbers `a` and `b`. Print `"divisible"` if `a` is divisible by `b` and `"not divisible"` otherwise.
 
-```
+```swift
 var a = 12
 var b = 3
 if a%b == 0 {
@@ -59,7 +59,7 @@ print("this number is not divisible")
 
 You are given three variables `a`, `b` and `c`. Check if at least two variables have the same value. If that is true, print `"At least two variables have the same value"` otherwise print `"All the values are different"`.
 
-```
+```swift
 var a = 2
 var b = 3
 var c = 2
@@ -77,7 +77,7 @@ print("All the values are different")
 
 You are working on a smart-fridge. The smart-fridge knows how old the eggs and bacon in it are. You know that eggs spoil after 3 weeks (21 days) and bacon after one week (7 days). Given `baconAge` and `eggsAge` (both in days) determine if you can cook bacon and eggs, or which ingredients you need to throw out. If you can cook bacon and eggs, print `"you can cook bacon and eggs"`. If you need to throw out any ingredients, for each one print a line with the text `"throw out"` + bacon or eggs.
 
-```
+```swift
 var baconAge = 6 // the bacon is 6 days old
 var eggsAge = 12 // eggs are 12 days old
 
